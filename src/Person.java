@@ -13,6 +13,4 @@ public abstract class Person {
     public String fullName() {
         return String.format("%s %s", firstName, lastName);
     }
-
-    public abstract String sortName();
 }
