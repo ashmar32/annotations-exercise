@@ -9,8 +9,4 @@ public abstract class Person {
         this.firstName = firstName;
         this.lastName = lastName;
     }
-
-    public String fullName() {
-        return String.format("%s %s", firstName, lastName);
-    }
 }
